@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book now</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+  <section class="home">
+    <div class="home-content">
+      <div class="main">
+        <div class="Book">
+          <h2>BOOK your dream car here</h2>
+          <form method="post" id="form">
+            <label class="home-content sci">Your name </label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Enter your name here" required>
+            <br><br>
+            <label>Your address </label>
+            <br>
+            <input type="text" name="address" id="name" placeholder="Enter your address here" required>
+            <br><br>
+            <label>Your Mobile no.</label>
+            <br>
+            <input type="number" name="number" id="name" placeholder="Enter your mobile no. here" required>
+            <br><br>
+            <label>Your email address</label>
+            <br>
+            <input type="text" name="email" id="name" placeholder="Enter your Valid email here" required>
+            <br><br>
+            <label>Which dream car would you like to choose</label>
+            <br>
+            <select>
+              <option value="none">None</option>
+              <option value="Audi">Audi</option>
+              <option value="BMW">BMW</option>
+              <option value="Volkswagen beetle">Volkswagen Beetle</option>
+              <option value="Ford probe">Ford Probe</option>
+              <option value="Ferrari">Ferrari</option>
+              <option value="Mahindra thar">Mahindra Thar</option>
+              <option value="Mercedes benz">Mercedes Benz</option>
+              <option value="Swift">Swift</option>
+              <option value="Classic cruiser">Classic Cruiser</option>
+              <option value="Mustang">Mustang</option>
+              <option value="Supra">Supra</option>
+            </select>
+            <br><br>
+            <a href="#" class="btn-box" id="but" onclick="change_text()">
+              <span class="button-icon">
+              </span>Book Now</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+
+</html>
